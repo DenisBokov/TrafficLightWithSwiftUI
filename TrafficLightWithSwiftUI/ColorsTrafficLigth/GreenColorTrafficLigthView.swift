@@ -1,5 +1,5 @@
 //
-//  YellowColorTrafficLigthView.swift
+//  GreenColorTrafficLigthView.swift
 //  TrafficLightWithSwiftUI
 //
 //  Created by Denis Bokov on 14.08.2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct YellowColorTrafficLigthView: View {
+struct GreenColorTrafficLigthView: View {
     let foregroundColor: Color
     let strokeColor: Color
     
@@ -21,5 +21,5 @@ struct YellowColorTrafficLigthView: View {
 }
 
 #Preview {
-    YellowColorTrafficLigthView(foregroundColor: .yellow, strokeColor: .white)
+    GreenColorTrafficLigthView(foregroundColor: .green, strokeColor: .white)
 }
