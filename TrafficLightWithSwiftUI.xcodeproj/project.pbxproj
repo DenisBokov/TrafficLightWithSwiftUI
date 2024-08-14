@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EF37D3FD2C6BE91C0033656D /* TrafficLightWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37D3FC2C6BE91C0033656D /* TrafficLightWithSwiftUIApp.swift */; };
-		EF37D3FF2C6BE91C0033656D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37D3FE2C6BE91C0033656D /* ContentView.swift */; };
+		EF37D3FF2C6BE91C0033656D /* TrafficLigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37D3FE2C6BE91C0033656D /* TrafficLigthView.swift */; };
 		EF37D4012C6BE91D0033656D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF37D4002C6BE91D0033656D /* Assets.xcassets */; };
 		EF37D4042C6BE91D0033656D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF37D4032C6BE91D0033656D /* Preview Assets.xcassets */; };
+		EF37D40B2C6CC4730033656D /* RedColorTrafficLigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37D40A2C6CC4730033656D /* RedColorTrafficLigthView.swift */; };
+		EF37D40D2C6CD2A20033656D /* YellowColorTrafficLigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37D40C2C6CD2A20033656D /* YellowColorTrafficLigthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF37D3F92C6BE91C0033656D /* TrafficLightWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37D3FC2C6BE91C0033656D /* TrafficLightWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightWithSwiftUIApp.swift; sourceTree = "<group>"; };
-		EF37D3FE2C6BE91C0033656D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF37D3FE2C6BE91C0033656D /* TrafficLigthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLigthView.swift; sourceTree = "<group>"; };
 		EF37D4002C6BE91D0033656D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF37D4032C6BE91D0033656D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF37D40A2C6CC4730033656D /* RedColorTrafficLigthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedColorTrafficLigthView.swift; sourceTree = "<group>"; };
+		EF37D40C2C6CD2A20033656D /* YellowColorTrafficLigthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowColorTrafficLigthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				EF37D3FC2C6BE91C0033656D /* TrafficLightWithSwiftUIApp.swift */,
-				EF37D3FE2C6BE91C0033656D /* ContentView.swift */,
+				EF37D3FE2C6BE91C0033656D /* TrafficLigthView.swift */,
+				EF37D40E2C6CD2AE0033656D /* ColorsTrafficLigth */,
 				EF37D4002C6BE91D0033656D /* Assets.xcassets */,
 				EF37D4022C6BE91D0033656D /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				EF37D4032C6BE91D0033656D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF37D40E2C6CD2AE0033656D /* ColorsTrafficLigth */ = {
+			isa = PBXGroup;
+			children = (
+				EF37D40A2C6CC4730033656D /* RedColorTrafficLigthView.swift */,
+				EF37D40C2C6CD2A20033656D /* YellowColorTrafficLigthView.swift */,
+			);
+			path = ColorsTrafficLigth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF37D3FF2C6BE91C0033656D /* ContentView.swift in Sources */,
+				EF37D40B2C6CC4730033656D /* RedColorTrafficLigthView.swift in Sources */,
+				EF37D3FF2C6BE91C0033656D /* TrafficLigthView.swift in Sources */,
 				EF37D3FD2C6BE91C0033656D /* TrafficLightWithSwiftUIApp.swift in Sources */,
+				EF37D40D2C6CD2A20033656D /* YellowColorTrafficLigthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
