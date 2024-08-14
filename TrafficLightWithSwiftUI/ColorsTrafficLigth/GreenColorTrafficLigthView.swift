@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct GreenColorTrafficLigthView: View {
-    let foregroundColor: Color
-    let strokeColor: Color
     let opacity: Double
     
     var body: some View {
         Circle()
-            .foregroundStyle(foregroundColor)
+            .foregroundStyle(.green)
             .opacity(opacity)
             .frame(width: 150, height: 150)
-            .overlay(Circle().stroke(strokeColor, lineWidth: 4))
+            .overlay(Circle().stroke(.white, lineWidth: 4))
             .shadow(radius: 10)
     }
 }
 
 #Preview {
-    GreenColorTrafficLigthView(foregroundColor: .green, strokeColor: .white, opacity: 0.1)
+    GreenColorTrafficLigthView(opacity: 0.1)
 }
